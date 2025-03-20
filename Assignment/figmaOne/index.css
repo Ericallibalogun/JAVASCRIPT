@@ -1,0 +1,81 @@
+{
+margin : 0;
+padding : 0;box-sizing: border-box;
+font-family: 'Ubuntu', sans-serif;
+}
+body.html{
+    width:100vw;
+    height:100vh;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 70px;
+}
+.logo img{
+    width:200px;
+    cursor: pointer;
+}
+.nav-menu li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+}
+
+.nav-menu ul li {
+    list-style: none;
+}
+
+.nav-menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.btn-secondary button {
+    height: 50px;
+    width: 150px;
+    border: 1px solid #000;
+    background-color: inherit;
+}
+.header-info h1{
+    padding-bottom: 50px ;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 93px;
+    width: 700%;
+    text-align: left;
+}
+.textOne-color{
+    color : deepskyblue;
+}
+.textTwo-color{
+    color:deepskyblue;
+}
+
+.container{
+    display: flex;
+    margin-top:70px;
+
+}
+.header-info{
+    margin-right: 350px;
+}
+.header-info h1{
+    margin-right: 70px;
+}
+body{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.header-image{
+    margin-bottom: 300px;
+}
+.callToAction{
+    display:flex;
+    padding:20px;
+    justify-content: space-evenly;
+}
