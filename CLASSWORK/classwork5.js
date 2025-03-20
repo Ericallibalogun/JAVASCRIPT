@@ -6,13 +6,8 @@ const person = {
 
 };
 function getFullDetails(object){
-const{firstName} = person;
-process.stdout.write('"' + "First Name:" + firstName + ", ");
-const{lastName} = person;
-process.stdout.write("Last Name:" + lastName + ", ");
-const{age} = person;
-process.stdout.write("Age:" + age + '"');
-	
+const{firstName,lastName,age} = person;
+console.log(`"First Name: ${firstName}, last Name: ${lastName}, Age: ${age}"`);
 }
 getFullDetails(person);
 

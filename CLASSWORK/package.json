@@ -2,5 +2,18 @@
   "dependencies": {
     "prompt-sync": "^4.2.0",
     "prompt-sync-history": "^1.0.1"
-  }
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "name": "classwork",
+  "version": "1.0.0",
+  "main": "classwork.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
