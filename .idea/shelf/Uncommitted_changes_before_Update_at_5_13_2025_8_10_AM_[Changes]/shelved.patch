@@ -1,0 +1,317 @@
+Index: Assignment/figmaOne/index.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\r\nmargin : 0;\r\npadding : 0;box-sizing: border-box;\r\nfont-family: 'Ubuntu', sans-serif;\r\n}\r\nbody.html{\r\n    width:100vw;\r\n    height:100vh;\r\n}\r\nnav {\r\n    display: flex;\r\n    justify-content: space-between;\r\n    align-items: center;\r\n    padding:20px 70px;\r\n}\r\n.logo img{\r\n    width:200px;\r\n    cursor: pointer;\r\n}\r\n.nav-menu li a {\r\n    text-decoration: none;\r\n    color: #000;\r\n    font-size: 18px;\r\n}\r\n\r\n.nav-menu ul li {\r\n    list-style: none;\r\n}\r\n\r\n.nav-menu ul {\r\n    list-style: none;\r\n    display: flex;\r\n    justify-content: space-between;\r\n    align-items: center;\r\n    gap: 50px;\r\n}\r\n.btn-secondary button {\r\n    height: 50px;\r\n    width: 150px;\r\n    border: 1px solid #000;\r\n    background-color: inherit;\r\n}\r\n.header-info h1{\r\n    padding-bottom: 50px ;\r\n    font-family: 'Ubuntu', sans-serif;\r\n    font-weight: 700;\r\n    font-size: 60px;\r\n    line-height: 93px;\r\n    width: 700%;\r\n    text-align: left;\r\n}\r\n.textOne-color{\r\n    color : deepskyblue;\r\n}\r\n.textTwo-color{\r\n    color:deepskyblue;\r\n}\r\n\r\n.container{\r\n    display: flex;\r\n    margin-top:70px;\r\n\r\n}\r\n.header-info{\r\n    margin-right: 350px;\r\n}\r\n.header-info h1{\r\n    margin-right: 70px;\r\n}\r\nbody{\r\n    padding-right: 20px;\r\n    padding-left: 20px;\r\n}\r\n.header-image{\r\n    margin-bottom: 300px;\r\n}\r\n.callToAction{\r\n    display:flex;\r\n    padding:20px;\r\n    justify-content: space-evenly;\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Assignment/figmaOne/index.css b/Assignment/figmaOne/index.css
+--- a/Assignment/figmaOne/index.css	(revision cb72e3e71a394778c4de3e52c273f833746a7301)
++++ b/Assignment/figmaOne/index.css	(date 1747118994560)
+@@ -1,8 +1,13 @@
+-{
++*{
+ margin : 0;
+ padding : 0;box-sizing: border-box;
+ font-family: 'Ubuntu', sans-serif;
+ }
++body{
++    max-width: 1200px;
++    margin:0 auto;
++    border: 1px solid black;
++}
+ body.html{
+     width:100vw;
+     height:100vh;
+@@ -11,16 +16,17 @@
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+-    padding:20px 70px;
++    padding: 10px 50px;
++    border-bottom:1px solid black
+ }
+ .logo img{
+-    width:200px;
++    width: 80%;
+     cursor: pointer;
+ }
+ .nav-menu li a {
+     text-decoration: none;
+     color: #000;
+-    font-size: 18px;
++    font-size: 12px;
+ }
+ 
+ .nav-menu ul li {
+@@ -32,11 +38,11 @@
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+-    gap: 50px;
++    gap: 30px;
+ }
+ .btn-secondary button {
+-    height: 50px;
+-    width: 150px;
++    height: 30px;
++    width: 100px;
+     border: 1px solid #000;
+     background-color: inherit;
+ }
+@@ -50,16 +56,21 @@
+     text-align: left;
+ }
+ .textOne-color{
+-    color : deepskyblue;
++    color : #2995E2;
+ }
+ .textTwo-color{
+-    color:deepskyblue;
++    color: #2995E2;
+ }
+ 
+ .container{
+     display: flex;
+     margin-top:70px;
++    padding-left: 20px;
++    padding-right: 20px;
+ 
++}
++.Group2{
++    width:450px;
+ }
+ .header-info{
+     margin-right: 350px;
+@@ -67,15 +78,65 @@
+ .header-info h1{
+     margin-right: 70px;
+ }
+-body{
+-    padding-right: 20px;
+-    padding-left: 20px;
+-}
+-.header-image{
+-    margin-bottom: 300px;
+-}
+ .callToAction{
+     display:flex;
+     padding:20px;
+     justify-content: space-evenly;
++}
++
++.primary-button{
++    color:white;
++    background-color: #2995E2;
++    border: none;
++    width: 150px;
++    height: 60px;
++    box-shadow:0 10px 10px rgba(0,0,0,0.3);
++}
++.callToAction-text button{
++    color : inherit;
++    border: none;
++    width:150px;
++    height: 60px;
++    position: relative;
++    bottom: 15px;
++}
++.about-header{
++    font-family: 'Ubuntu', sans-serif;
++    font-weight: bold;
++    text-align: center;
++}
++.about-text{
++    font-family: 'Ubuntu', sans-serif;
++    text-align: center;
++    line-height: 2;
++}
++.services-header{
++    font-family: 'Ubuntu', sans-serif;
++    color: deepskyblue;
++}
++.services-subhead{
++    font-family: 'Ubuntu', sans-serif;
++    margin-bottom: 100px;
++}
++.One{
++    font-family: 'Ubuntu', sans-serif;
++    display: flex;
++}
++.service1 p{
++    line-height: 2;
++}
++.OneImage{
++    transform:translateY(-50px);
++}
++.One button{
++    color:white;
++    background-color: #2995E2;
++    border: none;
++    width: 150px;
++    height: 60px;
++    box-shadow:0 10px 10px rgba(0,0,0,0.3);
++    transform:translateY(20px);
++}
++.TwoImage{
++    margin-left: 50px;
+ }
+\ No newline at end of file
+Index: Assignment/figmaOne/index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Title</title>\r\n    <link rel=\"stylesheet\" href=\"index.css\">\r\n</head>\r\n<body>\r\n<nav>\r\n    <div class=\"logo\">\r\n        <img src=\"./IMAGES/Frame%201.png\" alt=\"\">\r\n    </div>\r\n    <div class=\"nav-menu\">\r\n        <ul>\r\n            <li><a href=\"#\">Home</a></li>\r\n            <li><a href=\"#\">Donate</a></li>\r\n            <li><a href=\"#\">Who we are</a></li>\r\n            <li><a href=\"#\">Join us</a></li>\r\n            <li><a href=\"#\">Contact us</a></li>\r\n            <li><a href=\"#\">Blog</a></li>\r\n        </ul>\r\n    </div>\r\n    <div class=\"btn-secondary\">\r\n    <button>Sign Up</button>\r\n    </div>\r\n</nav>\r\n\r\n<hr>\r\n<header>\r\n    <div class=\"container\" >\r\n        <div class=\"header-info\">\r\n            <h1>We <span class = \"textOne-color\">Help</span> Everyone <br> Here For A <span class=\"textTwo-color\">Better Life</span></h1>\r\n            <h2>If you are someone who like to help others ,get started</h2>\r\n\r\n\r\n            <div class = \"callToAction\">\r\n                <button class=\"primary button\">Get Started</button>\r\n                <div class =\"our story\">\r\n                    <p class = \"callToAction-text\">Watch our Story</p>\r\n                    <img src=\"./IMAGES/Polygon%201.png\" alt=\" a play button\">\r\n                </div>\r\n            </div>\r\n        </div>\r\n        <div class=\"header-image\">\r\n            <img src=\"./IMAGES/Group%2016.png\" alt=\"\">\r\n        </div>\r\n    </div>\r\n\r\n</header>\r\n\r\n\r\n</body>\r\n</html>\r\n\r\n\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Assignment/figmaOne/index.html b/Assignment/figmaOne/index.html
+--- a/Assignment/figmaOne/index.html	(revision cb72e3e71a394778c4de3e52c273f833746a7301)
++++ b/Assignment/figmaOne/index.html	(date 1747118896947)
+@@ -13,7 +13,7 @@
+     </div>
+     <div class="nav-menu">
+         <ul>
+-            <li><a href="#">Home</a></li>
++            <li><a href="#"><b>Service</b></a></li>
+             <li><a href="#">Donate</a></li>
+             <li><a href="#">Who we are</a></li>
+             <li><a href="#">Join us</a></li>
+@@ -26,27 +26,56 @@
+     </div>
+ </nav>
+ 
+-<hr>
++
+ <header>
+     <div class="container" >
+         <div class="header-info">
+             <h1>We <span class = "textOne-color">Help</span> Everyone <br> Here For A <span class="textTwo-color">Better Life</span></h1>
+-            <h2>If you are someone who like to help others ,get started</h2>
++            <h2>If you are someone who loves to help others, get started</h2>
+ 
+ 
+             <div class = "callToAction">
+-                <button class="primary button">Get Started</button>
++                <button class="primary-button">Get Started</button>
+                 <div class ="our story">
+-                    <p class = "callToAction-text">Watch our Story</p>
+-                    <img src="./IMAGES/Polygon%201.png" alt=" a play button">
++                    <p class = "callToAction-text"><button>Watch our Story  <img src="./IMAGES/Frame%207.png" alt=" a play button"></button> </p>
++
+                 </div>
+             </div>
+         </div>
+         <div class="header-image">
+-            <img src="./IMAGES/Group%2016.png" alt="">
++            <img class="Group2" src="./IMAGES/Group%2016.png" alt="">
++        </div>
++    </div>
++    <div class="About-us" >
++        <h1 class="about-header"> <img src="./IMAGES/SUN%20&%20CLOUDS.png" alt="Sun and moon"> About Us</h1>
++        <p class="about-text">Lorem ipsum dolor sit amet consectetur. Id ullamcorper iaculis laoreet egestas velit phasellus<br> euismod aliquam. Ullamcorper sit amet neque tellus libero sem dui tristique. Ac quam penatibus velit <br>at ipsum aliquet tortor.<img class="tent-image" src="./IMAGES/TENTS.png" alt="tents"></p>
++    </div>
++    <h2 class="services-header">Our Services</h2>
++    <p class ="services-subhead">Some services include the following :</p>
++
++    <div class="One">
++        <div class="service1">
++        <h1>
++            1-Guardianship Of Children Without Families
++        </h1>
++        <p>
++            Lorem ipsum dolor sit amet consectetur. Id ullamcorper<br> iaculis laoreet egestas velit phasellus euismod aliquam.<br> Ullamcorper sit amet neque tellus libero sem dui tristique. Ac<br> quam penatibus velit at ipsum aliquet tortor.
++        </p>
++            <button class="S1button">About This</button>
++        </div>
++        <div class="OneImage">
++            <img src="./IMAGES/Group%207.png" alt="A happy family">
++        </div>
++    </div>
++    <div class="Two">
++        <div class="service2">
++            <div class="TwoImage">
++                <img src="./IMAGES/Group%201.png" alt="a young boy helping an old man">
++            </div>
+         </div>
+     </div>
+ 
++
+ </header>
+ 
+ 
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"80e33d77-a339-4b56-a181-d96ebc9e49af\" name=\"Changes\" comment=\"\">\r\n      <change afterPath=\"$PROJECT_DIR$/Assignment/Stack.js\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/Assignment/Stack.test.js\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/Assignment/figmaOne/index.css\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/Assignment/figmaOne/index.html\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/Assignment/tables.html\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/JAVASCRIPT.iml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/JAVASCRIPT.iml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"JavaScript File\" />\r\n        <option value=\"CSS File\" />\r\n        <option value=\"HTML File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;Ericallibalogun&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/Ericallibalogun/JAVASCRIPT.git&quot;,\r\n    &quot;accountId&quot;: &quot;acc61e75-d333-476d-980c-0edff502d59a&quot;\r\n  }\r\n}</component>\r\n  <component name=\"ProblemsViewState\">\r\n    <option name=\"selectedTabId\" value=\"QODANA_PROBLEMS_VIEW_TAB\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 4\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2ukuMiR6AUBYKjTnlP5nNZUI0tU\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,\r\n    &quot;Jest.Add all expeses.executor&quot;: &quot;Run&quot;,\r\n    &quot;Jest.Area.test.js.executor&quot;: &quot;Run&quot;,\r\n    &quot;Jest.add 5 to scores.executor&quot;: &quot;Run&quot;,\r\n    &quot;Jest.add elents in the array.executor&quot;: &quot;Run&quot;,\r\n    &quot;Jest.add two to each elements in the array.executor&quot;: &quot;Run&quot;,\r\n    &quot;Jest.arrayMethods.test.js.executor&quot;: &quot;Run&quot;,\r\n    &quot;Jest.destructure keys in object.executor&quot;: &quot;Run&quot;,\r\n    &quot;Jest.distribute books to members.executor&quot;: &quot;Run&quot;,\r\n    &quot;Jest.filter the student's scores.executor&quot;: &quot;Run&quot;,\r\n    &quot;Jest.find lcm of the numbers.executor&quot;: &quot;Run&quot;,\r\n    &quot;Jest.plan schedule.executor&quot;: &quot;Run&quot;,\r\n    &quot;Jest.return the values in an object.executor&quot;: &quot;Run&quot;,\r\n    &quot;Jest.supply the squares of integers.executor&quot;: &quot;Run&quot;,\r\n    &quot;Jest.test for odd numbers.executor&quot;: &quot;Run&quot;,\r\n    &quot;Node.js.Array.js.executor&quot;: &quot;Run&quot;,\r\n    &quot;Node.js.GetFirstPositiveNumber.js.executor&quot;: &quot;Run&quot;,\r\n    &quot;Node.js.HighestCommonfactor.js.executor&quot;: &quot;Run&quot;,\r\n    &quot;Node.js.Stack.js.executor&quot;: &quot;Run&quot;,\r\n    &quot;Node.js.TaskFour.js.executor&quot;: &quot;Run&quot;,\r\n    &quot;Node.js.TaskOne.js.executor&quot;: &quot;Run&quot;,\r\n    &quot;Node.js.TaskSix.js.executor&quot;: &quot;Run&quot;,\r\n    &quot;Node.js.TaskTen.js.executor&quot;: &quot;Run&quot;,\r\n    &quot;Node.js.TaskThree.js.executor&quot;: &quot;Run&quot;,\r\n    &quot;Node.js.TaskTwo.js.executor&quot;: &quot;Run&quot;,\r\n    &quot;Node.js.dimensional.js.executor&quot;: &quot;Run&quot;,\r\n    &quot;Node.js.first_array_task.js.executor&quot;: &quot;Run&quot;,\r\n    &quot;Node.js.first_lesson.js.executor&quot;: &quot;Run&quot;,\r\n    &quot;Node.js.object_task.js.executor&quot;: &quot;Run&quot;,\r\n    &quot;Node.js.object_task2.js.executor&quot;: &quot;Run&quot;,\r\n    &quot;Node.js.object_task3.js.executor&quot;: &quot;Run&quot;,\r\n    &quot;Node.js.object_task4.js.executor&quot;: &quot;Run&quot;,\r\n    &quot;Node.js.object_task5.js.executor&quot;: &quot;Run&quot;,\r\n    &quot;Node.js.objects.js.executor&quot;: &quot;Run&quot;,\r\n    &quot;Node.js.oop.js.executor&quot;: &quot;Run&quot;,\r\n    &quot;Node.js.task1.js.executor&quot;: &quot;Run&quot;,\r\n    &quot;Node.js.task2.js.executor&quot;: &quot;Run&quot;,\r\n    &quot;Node.js.task4.js.executor&quot;: &quot;Run&quot;,\r\n    &quot;Node.js.task5.js.executor&quot;: &quot;Run&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,\r\n    &quot;git-widget-placeholder&quot;: &quot;main&quot;,\r\n    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;22.14.0&quot;,\r\n    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;22.14.1&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;C:/Users/Dell/OneDrive/Documents/Task assignment/gateOne/MenstrualWahala&quot;,\r\n    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,\r\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;nodejs.jest.jest_package&quot;: &quot;C:/Users/Dell/WebstormProjects/JAVASCRIPT/CLASSWORK/node_modules/jest&quot;,\r\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,\r\n    &quot;ts.external.directory.path&quot;: &quot;C:\\\\Program Files\\\\JetBrains\\\\WebStorm 2024.3.5\\\\plugins\\\\javascript-plugin\\\\jsLanguageServicesImpl\\\\external&quot;,\r\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\Dell\\WebstormProjects\\JAVASCRIPT\\Assignment\\figmaOne\" />\r\n      <recent name=\"C:\\Users\\Dell\\WebstormProjects\\JAVASCRIPT\\CLASSWORK\" />\r\n      <recent name=\"C:\\Users\\Dell\\WebstormProjects\\JAVASCRIPT\\Assignment\" />\r\n      <recent name=\"C:\\Users\\Dell\\WebstormProjects\\JAVASCRIPT\\CLASSWORK\\Chinedu\\ArrayMethods\" />\r\n      <recent name=\"C:\\Users\\Dell\\WebstormProjects\\JAVASCRIPT\\CLASSWORK\\Chinedu\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Jest.Add all expeses\">\r\n    <configuration name=\"Add all expeses\" type=\"JavaScriptTestRunnerJest\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <node-interpreter value=\"project\" />\r\n      <jest-package value=\"$PROJECT_DIR$/CLASSWORK/node_modules/jest\" />\r\n      <working-dir value=\"$PROJECT_DIR$/CLASSWORK\" />\r\n      <envs />\r\n      <scope-kind value=\"TEST\" />\r\n      <test-file value=\"$PROJECT_DIR$/CLASSWORK/Chinedu/ArrayMethods/test/TaskSix.test.js\" />\r\n      <test-names>\r\n        <test-name value=\"Add all expeses\" />\r\n      </test-names>\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"find lcm of the numbers\" type=\"JavaScriptTestRunnerJest\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <node-interpreter value=\"project\" />\r\n      <jest-package value=\"$PROJECT_DIR$/CLASSWORK/node_modules/jest\" />\r\n      <working-dir value=\"$PROJECT_DIR$/CLASSWORK\" />\r\n      <envs />\r\n      <scope-kind value=\"TEST\" />\r\n      <test-file value=\"$PROJECT_DIR$/CLASSWORK/HCF.test.js\" />\r\n      <test-names>\r\n        <test-name value=\"find lcm of the numbers\" />\r\n      </test-names>\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"TaskSix.js\" type=\"NodeJSConfigurationType\" temporary=\"true\" nameIsGenerated=\"true\" path-to-js-file=\"$PROJECT_DIR$/CLASSWORK/Chinedu/ArrayMethods/TaskSix.js\" working-dir=\"$PROJECT_DIR$/CLASSWORK/Chinedu/ArrayMethods\">\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"TaskTen.js\" type=\"NodeJSConfigurationType\" temporary=\"true\" nameIsGenerated=\"true\" path-to-js-file=\"$PROJECT_DIR$/CLASSWORK/Chinedu/ArrayMethods/TaskTen.js\" working-dir=\"$PROJECT_DIR$/CLASSWORK/Chinedu/ArrayMethods\">\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"oop.js\" type=\"NodeJSConfigurationType\" temporary=\"true\" nameIsGenerated=\"true\" path-to-js-file=\"$PROJECT_DIR$/CLASSWORK/oop.js\" working-dir=\"$PROJECT_DIR$/CLASSWORK\">\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Jest.find lcm of the numbers\" />\r\n        <item itemvalue=\"Node.js.oop.js\" />\r\n        <item itemvalue=\"Node.js.TaskTen.js\" />\r\n        <item itemvalue=\"Jest.Add all expeses\" />\r\n        <item itemvalue=\"Node.js.TaskSix.js\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-WS-251.25410.117\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"80e33d77-a339-4b56-a181-d96ebc9e49af\" name=\"Changes\" comment=\"\" />\r\n      <created>1742804847546</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1742804847546</updated>\r\n      <workItem from=\"1742804849154\" duration=\"17503000\" />\r\n      <workItem from=\"1743106946379\" duration=\"1682000\" />\r\n      <workItem from=\"1743151040221\" duration=\"3934000\" />\r\n      <workItem from=\"1743156107564\" duration=\"6899000\" />\r\n      <workItem from=\"1743965861408\" duration=\"229000\" />\r\n      <workItem from=\"1744089405962\" duration=\"4098000\" />\r\n      <workItem from=\"1744177645575\" duration=\"2996000\" />\r\n      <workItem from=\"1744710103812\" duration=\"13292000\" />\r\n      <workItem from=\"1745349929141\" duration=\"2304000\" />\r\n      <workItem from=\"1745571531685\" duration=\"11781000\" />\r\n      <workItem from=\"1745916190164\" duration=\"308000\" />\r\n      <workItem from=\"1746355385890\" duration=\"594000\" />\r\n      <workItem from=\"1746448299388\" duration=\"3506000\" />\r\n      <workItem from=\"1746524011783\" duration=\"14932000\" />\r\n      <workItem from=\"1746696608131\" duration=\"4860000\" />\r\n      <workItem from=\"1746876473534\" duration=\"8120000\" />\r\n      <workItem from=\"1746907186564\" duration=\"11466000\" />\r\n      <workItem from=\"1747042037445\" duration=\"290000\" />\r\n      <workItem from=\"1747043209449\" duration=\"1524000\" />\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <line-breakpoint enabled=\"true\" type=\"javascript\">\r\n          <url>file://$PROJECT_DIR$/CLASSWORK/object_task2.js</url>\r\n          <line>25</line>\r\n          <option name=\"timeStamp\" value=\"1\" />\r\n        </line-breakpoint>\r\n        <line-breakpoint enabled=\"true\" type=\"javascript\">\r\n          <url>file://$PROJECT_DIR$/CLASSWORK/Chinedu/ArrayMethods/TaskOne.js</url>\r\n          <line>1</line>\r\n          <option name=\"timeStamp\" value=\"2\" />\r\n        </line-breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision cb72e3e71a394778c4de3e52c273f833746a7301)
++++ b/.idea/workspace.xml	(date 1747119967037)
+@@ -4,18 +4,21 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="80e33d77-a339-4b56-a181-d96ebc9e49af" name="Changes" comment="">
+-      <change afterPath="$PROJECT_DIR$/Assignment/Stack.js" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Assignment/Stack.test.js" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Assignment/figmaOne/index.css" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Assignment/figmaOne/index.html" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Assignment/tables.html" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/JAVASCRIPT.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JAVASCRIPT.iml" afterDir="false" />
++    <list default="true" id="80e33d77-a339-4b56-a181-d96ebc9e49af" name="Changes" comment="landing page">
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Assignment/figmaOne/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment/figmaOne/index.css" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Assignment/figmaOne/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment/figmaOne/index.html" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+     <option name="LAST_RESOLUTION" value="IGNORE" />
++  </component>
++  <component name="ChangesViewManager" show_ignored="true">
++    <option name="groupingKeys">
++      <option value="directory" />
++      <option value="repository" />
++    </option>
+   </component>
+   <component name="FileTemplateManagerImpl">
+     <option name="RECENT_TEMPLATES">
+@@ -197,12 +200,35 @@
+       <workItem from="1746876473534" duration="8120000" />
+       <workItem from="1746907186564" duration="11466000" />
+       <workItem from="1747042037445" duration="290000" />
+-      <workItem from="1747043209449" duration="1524000" />
++      <workItem from="1747043209449" duration="9163000" />
++      <workItem from="1747110166634" duration="5448000" />
+     </task>
++    <task id="LOCAL-00001" summary="landing page">
++      <option name="closed" value="true" />
++      <created>1747049235246</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1747049235246</updated>
++    </task>
++    <task id="LOCAL-00002" summary="landing page">
++      <option name="closed" value="true" />
++      <created>1747049320464</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1747049320464</updated>
++    </task>
++    <option name="localTasksCounter" value="3" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+     <option name="version" value="3" />
++  </component>
++  <component name="VcsManagerConfiguration">
++    <MESSAGE value="recommited" />
++    <MESSAGE value="landing page" />
++    <option name="LAST_COMMIT_MESSAGE" value="landing page" />
+   </component>
+   <component name="XDebuggerManager">
+     <breakpoint-manager>

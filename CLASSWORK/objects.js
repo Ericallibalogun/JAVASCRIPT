@@ -38,6 +38,7 @@ const people = {
 }
 const{name} = people;
 console.log(name + " ");
+const {hobbies} = people;
 
 
 //const promptsync = require('promptsync');

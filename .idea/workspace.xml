@@ -5,12 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="80e33d77-a339-4b56-a181-d96ebc9e49af" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assignment/Stack.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/Stack.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/figmaOne/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/figmaOne/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/tables.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/JAVASCRIPT.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JAVASCRIPT.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_13_2025_8_10_AM_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_13_2025_8_10_AM__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment/figmaOne/IMAGES/Frame 7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment/figmaOne/IMAGES/Group 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment/figmaOne/IMAGES/Group 7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment/figmaOne/IMAGES/SUN &amp; CLOUDS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment/figmaOne/IMAGES/TENTS.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ansi-regex/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ansi-regex/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ansi-regex/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ansi-regex/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prompt-sync-history/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prompt-sync-history/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prompt-sync-history/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prompt-sync/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prompt-sync/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prompt-sync/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prompt-sync/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prompt-sync/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/strip-ansi/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/strip-ansi/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/strip-ansi/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/strip-ansi/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/strip-ansi/readme.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,14 +40,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -57,6 +78,8 @@
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;Jest.Add all expeses.executor&quot;: &quot;Run&quot;,
     &quot;Jest.Area.test.js.executor&quot;: &quot;Run&quot;,
+    &quot;Jest.Rectangle.executor&quot;: &quot;Run&quot;,
+    &quot;Jest.Shape.test.js.executor&quot;: &quot;Run&quot;,
     &quot;Jest.add 5 to scores.executor&quot;: &quot;Run&quot;,
     &quot;Jest.add elents in the array.executor&quot;: &quot;Run&quot;,
     &quot;Jest.add two to each elements in the array.executor&quot;: &quot;Run&quot;,
@@ -72,6 +95,7 @@
     &quot;Node.js.Array.js.executor&quot;: &quot;Run&quot;,
     &quot;Node.js.GetFirstPositiveNumber.js.executor&quot;: &quot;Run&quot;,
     &quot;Node.js.HighestCommonfactor.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.Rectangle.js.executor&quot;: &quot;Run&quot;,
     &quot;Node.js.Stack.js.executor&quot;: &quot;Run&quot;,
     &quot;Node.js.TaskFour.js.executor&quot;: &quot;Run&quot;,
     &quot;Node.js.TaskOne.js.executor&quot;: &quot;Run&quot;,
@@ -98,7 +122,7 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;22.14.0&quot;,
     &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;22.14.1&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Dell/OneDrive/Documents/Task assignment/gateOne/MenstrualWahala&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Dell/WebstormProjects/JAVASCRIPT/CLASSWORK/Shapes&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -112,6 +136,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Dell\WebstormProjects\JAVASCRIPT\CLASSWORK\Shapes" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Dell\WebstormProjects\JAVASCRIPT\Assignment\figmaOne" />
       <recent name="C:\Users\Dell\WebstormProjects\JAVASCRIPT\CLASSWORK" />
@@ -120,16 +147,28 @@
       <recent name="C:\Users\Dell\WebstormProjects\JAVASCRIPT\CLASSWORK\Chinedu" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.Add all expeses">
-    <configuration name="Add all expeses" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Jest.Rectangle">
+    <configuration name="Rectangle" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <jest-package value="$PROJECT_DIR$/CLASSWORK/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$/CLASSWORK" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/CLASSWORK/Chinedu/ArrayMethods/test/TaskSix.test.js" />
+      <test-file value="$PROJECT_DIR$/CLASSWORK/Shapes/Shape.test.js" />
       <test-names>
-        <test-name value="Add all expeses" />
+        <test-name value="Rectangle" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="add elents in the array" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/CLASSWORK/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/CLASSWORK" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/CLASSWORK/Coffee/Tests/task.test.js" />
+      <test-names>
+        <test-name value="add elents in the array" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -145,9 +184,6 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="TaskSix.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/CLASSWORK/Chinedu/ArrayMethods/TaskSix.js" working-dir="$PROJECT_DIR$/CLASSWORK/Chinedu/ArrayMethods">
-      <method v="2" />
-    </configuration>
     <configuration name="TaskTen.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/CLASSWORK/Chinedu/ArrayMethods/TaskTen.js" working-dir="$PROJECT_DIR$/CLASSWORK/Chinedu/ArrayMethods">
       <method v="2" />
     </configuration>
@@ -156,11 +192,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.Rectangle" />
+        <item itemvalue="Jest.add elents in the array" />
         <item itemvalue="Jest.find lcm of the numbers" />
         <item itemvalue="Node.js.oop.js" />
         <item itemvalue="Node.js.TaskTen.js" />
-        <item itemvalue="Jest.Add all expeses" />
-        <item itemvalue="Node.js.TaskSix.js" />
       </list>
     </recent_temporary>
   </component>
@@ -198,6 +234,9 @@
       <workItem from="1746907186564" duration="11466000" />
       <workItem from="1747042037445" duration="290000" />
       <workItem from="1747043209449" duration="1524000" />
+      <workItem from="1747122721296" duration="7490000" />
+      <workItem from="1747195486374" duration="589000" />
+      <workItem from="1747200067105" duration="284000" />
     </task>
     <servers />
   </component>
