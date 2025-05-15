@@ -4,34 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80e33d77-a339-4b56-a181-d96ebc9e49af" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_13_2025_8_10_AM_[Changes]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_13_2025_8_10_AM__Changes_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/figmaOne/IMAGES/Frame 7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/figmaOne/IMAGES/Group 1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/figmaOne/IMAGES/Group 7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/figmaOne/IMAGES/SUN &amp; CLOUDS.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/figmaOne/IMAGES/TENTS.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ansi-regex/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ansi-regex/license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ansi-regex/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ansi-regex/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/prompt-sync-history/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/prompt-sync-history/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/prompt-sync-history/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/prompt-sync/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/prompt-sync/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/prompt-sync/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/prompt-sync/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/prompt-sync/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/strip-ansi/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/strip-ansi/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/strip-ansi/license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/strip-ansi/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/strip-ansi/readme.md" beforeDir="false" />
-    </list>
+    <list default="true" id="80e33d77-a339-4b56-a181-d96ebc9e49af" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -237,6 +210,7 @@
       <workItem from="1747122721296" duration="7490000" />
       <workItem from="1747195486374" duration="589000" />
       <workItem from="1747200067105" duration="284000" />
+      <workItem from="1747321105454" duration="338000" />
     </task>
     <servers />
   </component>
